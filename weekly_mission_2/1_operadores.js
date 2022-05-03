@@ -12,7 +12,7 @@ console.log(sum)
 
 //Ejemplo 3: for Each para imprimir los países en letras mayúsculas
 const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
-console.log("Ejemplo 5: Imprimiendo la lista de la países en mayúsculas")
+console.log("Ejemplo 3: Imprimiendo la lista de la países en mayúsculas")
 countries.forEach((element) => console.log(element.toUpperCase()))
 
 //Ejemplo 4: Uso de map para recorrer los elementos de una lista y crear una nueva lista
