@@ -26,3 +26,10 @@ const numbersSquare = numbers4.map(function(num){return num * num})
 // const numbersSquare = numbers4.map((num) => {return num * num});
 console.log("Ejemplo 4: Imprimiendo las lista de los elementos al cuadro")
 console.log(numbersSquare)
+
+//Ejemplo 5: Uso de Map para convertir todos los nombres de una lista a minúsculas
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const namesToUpperCase = names.map((name) => name.toUpperCase())
+
+console.log("Ejemplo 5: Uso de Map para convertir todos los nombres de una lista a minúsculas")
+console.log(namesToUpperCase)
