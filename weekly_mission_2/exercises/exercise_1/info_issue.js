@@ -23,5 +23,6 @@ const issue = {
 
 console.log("Repositorio asociado: " + issue.repositoryNameAssociated)
 console.log("Issues status: " + issue.status)
+console.log("Numero de comentarios: " + issue.numberOfComments)
 console.log(issue.getTitleAndAuthor())
 console.log(issue.getGeneralInfo())
