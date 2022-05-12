@@ -41,7 +41,7 @@ const trending = {
     } 
 }
 
-console.log("El lugar de los trending topic es en: " + trending.place)
+console.log("El lugar de los trending topic es: " + trending.place)
 console.log(trending.trendings.number_1.title)
 console.log(trending.getTrendingNumber_1())
 console.log(trending.getTrendingNumber_5())
