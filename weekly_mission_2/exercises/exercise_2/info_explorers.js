@@ -78,3 +78,12 @@ console.log("\nEl Stack de cada explorer en la lista son: (MAP)")
 const stacks = explorers.map(function(explorers){
     console.log(explorers.name + " sus Stack son: " + explorers.stack)
 })
+
+// Obtén la lista de explorers que tengan en su stack "js", usa FILTER 
+// (para validar un elemento en un lista se usa el método includes)
+console.log("\nLos explorers con stack js son: ")
+const stackJS = explorers.filter((stack) => 
+    stack.stack.includes('js')
+)
+
+console.log(stackJS)
