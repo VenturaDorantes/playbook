@@ -87,3 +87,10 @@ const stackJS = explorers.filter((stack) =>
 )
 
 console.log(stackJS)
+
+// Busca el primer explorer que sea de la CDMX, usa FIND
+const explorerCDMX = explorers.find((cdmx) => 
+    cdmx.city == "CDMX"
+)
+
+console.log("\nEl primer explorer que reside en CDMX es: " + explorerCDMX.name)
