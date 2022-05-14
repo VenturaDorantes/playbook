@@ -101,3 +101,12 @@ const sum_completed = explorers.reduce((total , element) =>
 )
 
 console.log("\nTotal de exercises_completed: " + sum_completed)
+
+// Obtén la validación si al menos uno de los explorers 
+// tiene la propiedad exercisesFinished en frontend como true, usa SOME
+
+const SomeExercisesFinished = explorers.some((ef) =>
+    ef.missions.frontend.isFinished === true
+) 
+
+console.log("\nValidación exercisesFinished en frontend como true: " + SomeExercisesFinished)
