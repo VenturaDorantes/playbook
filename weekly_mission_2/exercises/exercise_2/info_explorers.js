@@ -110,3 +110,12 @@ const SomeExercisesFinished = explorers.some((ef) =>
 ) 
 
 console.log("\nValidación exercisesFinished en frontend como true: " + SomeExercisesFinished)
+
+// Obtén la validación si todos los explorers tienen la propiedad 
+// isFinished del onboarding como true. Usa EVERY.
+
+const EveryExercisesFinished = explorers.every((ef) =>
+    ef.missions.onboarding.isFinished === true
+)
+
+console.log("\nValidación exercisesFinished en onboarding como true: " + EveryExercisesFinished)
