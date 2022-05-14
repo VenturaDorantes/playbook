@@ -94,3 +94,10 @@ const explorerCDMX = explorers.find((cdmx) =>
 )
 
 console.log("\nEl primer explorer que reside en CDMX es: " + explorerCDMX.name)
+
+// Obtén la suma de todos los exercises_completed, usa REDUCE
+const sum_completed = explorers.reduce((total , element) =>
+    total + element.exercises_completed, 0
+)
+
+console.log("\nTotal de exercises_completed: " + sum_completed)
