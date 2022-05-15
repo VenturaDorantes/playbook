@@ -28,11 +28,6 @@ const post = {
     },
 
     getComments: function(){
-        // const TotalComment = this.comments.forEach((comment) =>
-        //     comment.comments
-        // )
-
-        // console.log(TotalComment)
 
         var TotalComments = ''
         this.comments.forEach((comment, number) =>
