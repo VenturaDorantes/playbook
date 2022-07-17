@@ -29,4 +29,8 @@ describe("Tests para UserService", () => {
 
 
     })
+
+    test("4) Dada una lista de usuarios, dame la lista de nombres de usuario", () => {
+
+    })
 })
