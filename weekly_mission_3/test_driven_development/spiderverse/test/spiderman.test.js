@@ -1,4 +1,4 @@
-const Spiderman = requiere('./../app/Spiderman')
+const Spiderman = require('./../app/Spiderman')
 
 describe("Prueba de unidad para la clase Spiderman", () => {
     test('1) Creando objeto para spiderman', () => {
