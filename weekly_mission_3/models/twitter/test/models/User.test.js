@@ -23,7 +23,7 @@ describe("Clase unitaria para la clase User de Twitter", () => {
     });
 
     test("Agregando getters", () => {
-        const User = new User(1, "venturadosa", "ventura", "Bio")
+        const user = new User(1, "venturadosa", "ventura", "Bio")
         
         expect(user.getUsername).toBe("venturadosa")
         expect(user.getBio).toBe("Bio")
