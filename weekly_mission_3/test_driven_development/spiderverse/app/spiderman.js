@@ -11,3 +11,5 @@ class Spiderman{
         return `Hola soy tu amigable vecino ${this.name}, interpretado por ${this.actor} de ${this.age} años, con ${this.movies} en total para el estudio de ${this.studio}`
     }
 }
+
+module.exports = Spiderman
