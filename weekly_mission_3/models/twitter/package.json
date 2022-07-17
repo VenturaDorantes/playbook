@@ -6,6 +6,6 @@
   "scripts": {
     "test": "node ./node_modules/jest/bin/jest.js"
   },
-  "author": "",
+  "author": "VenturaDorantes",
   "license": "ISC"
 }
