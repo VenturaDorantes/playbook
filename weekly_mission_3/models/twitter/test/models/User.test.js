@@ -14,7 +14,11 @@ describe("Clase unitaria para la clase User de Twitter", () => {
         expect(user.username).toBe("venturadosa")
         expect(user.name).toBe("ventura")
         expect(user.bio).toBe("Bio")
-        expect(user.dateCreated).toBe("dateCreated")
-        expect(user.lastUpdated).toBe("lastUpdated")
+        // expect(user.dateCreated).toBe("dateCreated")
+        // expect(user.lastUpdated).toBe("lastUpdated")
+
+
+        expect(user.dateCreated).not.toBeUndefined() // Verifica que el valor no sea definible
+        expect(user.lastUpdated).not.toBeUndefined()
     });
 })
