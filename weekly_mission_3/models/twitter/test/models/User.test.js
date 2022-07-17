@@ -21,4 +21,13 @@ describe("Clase unitaria para la clase User de Twitter", () => {
         expect(user.dateCreated).not.toBeUndefined() // Verifica que el valor no sea definible
         expect(user.lastUpdated).not.toBeUndefined()
     });
+
+    test("Agregando getters", () => {
+        const User = new User(1, "venturadosa", "ventura", "Bio")
+        
+        expect(user.getUsername).toBe("venturadosa")
+        expect(user.getBio).toBe("Bio")
+        expect(user.getDateCreated).not.toBeUndefined()
+        expect(user.getLastUpdated).not.toBeUndefined()
+    })
 })
