@@ -29,5 +29,15 @@ describe("Clase unitaria para la clase User de Twitter", () => {
         expect(user.getBio).toBe("Bio")
         expect(user.getDateCreated).not.toBeUndefined()
         expect(user.getLastUpdated).not.toBeUndefined()
-    })
+    });
+
+    test("Agregando setters", () => {
+        const user = new User(1, "venturadosa", "ventura", "Bio")
+        
+        user.setUsername = "VenturaDS"
+        expect(user.username).toBe("VenturaDS")
+
+        user.setBio = "New Bio"
+        expect(user.bio).toBe("New Bio")
+    });
 })
