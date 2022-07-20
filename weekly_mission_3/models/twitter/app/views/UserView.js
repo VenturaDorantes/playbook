@@ -16,6 +16,10 @@ class UserView {
         if (ret){
             return { error: 'necesitan tener un valor válido' }
         }
+
+        var user = UserService.create(payload.id, payload.username, payload.name)
+
+        return user
     }
 }
 
