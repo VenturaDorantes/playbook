@@ -1,7 +1,5 @@
 # Weekly Mission 3
 
-# Semana 3 
-
 Proyectos desarrollados en la semana 3:
 
 | Proyecto | Práctica | Link al repo |
